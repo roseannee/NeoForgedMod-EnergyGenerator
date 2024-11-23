@@ -1,10 +1,10 @@
 package com.toremuyu.energygenerator;
 
+import com.toremuyu.energygenerator.init.BlocksEG;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import org.zeith.hammerlib.api.items.CreativeTab;
 import org.zeith.hammerlib.core.adapter.LanguageAdapter;
-import org.zeith.hammerlib.core.init.ItemsHL;
 import org.zeith.hammerlib.proxy.HLConstants;
 
 @Mod(EnergyGenerator.MOD_ID)
@@ -15,7 +15,7 @@ public class EnergyGenerator
 	@CreativeTab.RegisterTab
 	public static final CreativeTab MOD_TAB = new CreativeTab(id("root"),
 			builder -> builder
-					.icon(() -> ItemsHL.COPPER_GEAR.getDefaultInstance())
+					.icon(() -> BlocksEG.GENERATOR.asItem().getDefaultInstance())
 					.withTabsBefore(HLConstants.HL_TAB.id())
 	);
 	
