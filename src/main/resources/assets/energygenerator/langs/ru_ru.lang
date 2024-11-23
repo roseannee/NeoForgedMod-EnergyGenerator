@@ -1,0 +1,6 @@
+block.energygenerator.generator=Генератор
+
+tooltip.energygenerator.generator=Генерирует энергию из молний.
+message.energygenerator.current_energy=Энергия: %s FE
+
+creative_tab.energygenerator.root=Генератор энергии

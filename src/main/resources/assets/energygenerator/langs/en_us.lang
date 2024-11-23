@@ -1,1 +1,6 @@
+block.energygenerator.generator=Generator
+
+tooltip.energygenerator.generator=Generates energy from lightning bolts.
+message.energygenerator.current_energy=Energy: %s FE
+
 creative_tab.energygenerator.root=Energy Generator
