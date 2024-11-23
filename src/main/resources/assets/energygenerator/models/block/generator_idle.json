@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "energygenerator:block/generator_idle"
+  }
+}

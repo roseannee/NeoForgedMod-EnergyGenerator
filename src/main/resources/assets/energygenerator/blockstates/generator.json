@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "sending=true": {
+      "model": "energygenerator:block/generator_sending"
+    },
+    "sending=false": {
+      "model": "energygenerator:block/generator_idle"
+    }
+  }
+}
